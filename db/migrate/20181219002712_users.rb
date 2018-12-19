@@ -3,7 +3,7 @@ class Users < ActiveRecord::Migration[5.1]
     create_table :users do |u|
       u.string :username
       u.string :password
-      u.decimal :balance
+      u.float :balance
     end
   end
 end
